@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+/* Style */
+
+
+body {
+	width: 1500px;
+	height: 2800px;
+}
+
+.mainheader {
+	width: 1500px;
+	height: 103px;
+	background-color: ;
+}
+
+
+.header img {
+	position: absolute;
+	left: 100px;
+	top: 10px;
+}
+
+.header .elip {
+	position: absolute;
+	left: 1244px;
+	top: 15px;
+}
+
+.header h1 {
+	width: 464px;
+	height: 71px;
+	font-size: 48px;
+	font-family: Heebo, sans-serif;
+	font-weight: bold;
+	color: #006943;
+	margin-left: 84px;
+	margin-top: 20px;
+	position: absolute;
+}
+
+
+.header ul {
+	position: absolute;
+	left: 960px;
+	top: 44px;
+}
+
+.header ul li {
+	display: inline-block;
+
+
+}
+
+ul li a {
+	text-decoration: none;
+	color: #006943;
+	padding: 20px;
+	font-family: Heebo, sans-serif;
+	font-weight: bold;
+}
+
+a:hover {
+	color: black;
+
+}
+
+.content1 h2 {
+	text-align: center;
+	margin-top: 210px;
+	font-weight: 5;
+	font-family: HelvLight;
+	font-size: 64px;
+	margin-left: 266px;
+	margin-right: 266px;
+	color: #006943;
+}
+
+.content1 img {
+	position: absolute;
+	top: 814px;
+	width: 700px;
+}
+
+.content1 p {
+	text-align: left;
+	width: 731px;
+	height: 315px;
+	color: #006943;
+	font-size: 36px;
+	font-family: HelvLight;
+	line-height: 43px;
+	margin-left: 154px;
+	margin-top: 696px;
+}
+
+.content2 img {
+	margin-left: 750px;
+}
+
+.content2 p {
+	text-align: right;
+	width: 1302px;
+	height: 315px;
+	margin-left: 120px;
+	color: #006943;
+	font-size: 32px;
+	font-family: HelvLight;
+	line-height: 43px;
+
+}
+
+.footer {
+	background-color: #ECF024;
+;
+}
+
+.footer h3 {
+	text-align: center;
+	color: #006943;
+	font-size: 32px;
+	font-family: HelvLight;
+	line-height: 43px;
+	font-weight: bold;
+
+}
+
