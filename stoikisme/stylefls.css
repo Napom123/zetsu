@@ -139,18 +139,22 @@ a:hover {
 
 }
 
-.footer {
-	background-color: #ECF024;
-;
-}
-
-.footer h3 {
+.footer footer {
 	text-align: center;
 	color: #006943;
 	font-size: 32px;
 	font-family: HelvLight;
 	line-height: 43px;
 	font-weight: bold;
+	position: absolute;
+	top: 2650px;
+	left: 0px;
+	background-color: #ECF024;
+	width: 1500px;
+
+
 
 }
+
+
 
