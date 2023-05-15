@@ -89,8 +89,19 @@ ul li a {
 	font-weight: bold;
 }
 
+.header .shop {
+	border-radius: 100%;
+	background-color: #ECF024;
+	height: 100px;
+	width: 20px;
+}
+
 a:hover {
 	color: black;
+	border-radius: 50%;
+	background-color: #ECF024;
+	height: 100px;
+	width: 20px;
 
 }
 
