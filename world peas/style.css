@@ -1,0 +1,217 @@
+/* CSS reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.header {
+	background-color: ;
+	height: 112px;
+	position: fixed;
+	width: 1440px;
+	z-index: 10;
+
+}
+
+
+
+.header .judul{
+	font-family: newsreader;
+	font-size: 28px;
+	font-weight: bold;
+	color: #426B1F;
+	background-color: ;
+	position: absolute;
+	left: 96px;
+	top: 41px;
+
+}
+
+.header ul{
+	position: absolute;
+	left: 780px;
+	top: 41px;
+}
+
+.header ul li {
+	display: inline-block;
+	padding: 20px;
+	background-color: ;
+	font-size: 16px;
+	font-family: inter;
+
+
+}
+
+ul li a {
+	text-decoration: none;
+	color: #1C211E;
+
+}
+
+.header .Basket {
+	background-color: #426B1F;
+	padding: 5px;
+	border: 0px;
+  	padding:  5px 8px;
+	border-radius: 10px;
+  	line-height: 2;
+  	color: white;
+
+}
+
+.header .Basket:hover {
+	color: black;
+}
+
+a:hover{
+  	color : white;
+  	border-radius: 10px;
+  	background-color: #426B1F;
+  	padding:  5px 8px;
+
+  	
+}
+
+
+body {
+	height:2090px;
+	width: 1440px;
+	font: 16px/28px arial, sans-serif;
+	background-color: 
+	color: #333;
+	margin: auto;
+}
+
+
+
+
+.container .subjudul {
+	font-size: 64px;
+	font-family: Newsreader;
+	font-weight: 400;
+	font-style: normal;
+	line-height: 120%;
+	text-align: center;
+	letter-spacing: -0.03em;
+
+	position: absolute;
+	height: ;
+	top: 279px;
+	right: 217px;
+	left: 203px;
+}
+
+.subjudul span{
+	font-style: italic;
+}
+
+.container {
+	margin: auto;
+}
+
+.container .ourshop {
+
+	position: absolute;
+	height: ;
+	top: 481px;
+	right: 606px;
+	left: 607px;
+
+	font-size: 16px;
+	font-family: inter;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+
+	background-color: #426B1F;
+	box-decoration-break: slice;
+	border: 0px;
+  	padding:  10px 10px 10px 10px;
+	border-radius: 5px;
+  	line-height: 2;
+
+}
+
+.container .ourshop:hover{
+  	color : #000000;
+
+ }
+
+ .container .content1 {
+ 	position: absolute;
+ 	height: ;
+ 	top: 701px;
+ 	right: 840px;
+ 	left: 96px;
+ 	z-index: ;
+ }
+
+ .container .content2 {
+ 	position: absolute;
+ 	height: ;
+ 	top: 806px;
+ 	right: px;
+ 	left: 656px;
+ }
+
+ .content2 span {
+ 	font-weight: bold;
+ }
+.content1 .subjudul2 {
+	margin-top: 161px;
+	font-weight: bold;
+}
+
+.container .content3 {
+		position: absolute;
+		top: 1563px;
+		left: 309px;
+		right: 309px;
+}
+
+.content3 p {
+	font-size: 16px;
+	line-height: 160%;
+}
