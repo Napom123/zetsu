@@ -1,0 +1,203 @@
+/* CSS reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	height: 2500px;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+.container {
+	width: 100%;
+	height: 100vh;
+	background-color:;
+	display: flex;
+	justify-content: center;
+	align-items: ;
+
+}
+
+.header {
+	width: 1500px;
+	height: 200px;
+	background-color: white;
+	margin: auto;
+	position: fixed;
+	z-index: 9999;
+	display: ;
+
+}
+
+.header img {
+	width: 551px;
+	height: 70px;
+	margin-top: 70px;
+	margin-left: 62px;
+}
+
+.header ul {
+	position: absolute;
+	top: 139px;
+	left: 27px;
+
+}
+
+.header ul li {
+	display: inline-table;
+	padding: 30px;
+
+}
+
+ul li a {
+
+	text-decoration: none;
+	color: black;
+	font-family: arial ,sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.tag {
+	background-color:  ;
+	display: flex;
+}
+
+.tag h2 {
+	font-size: 48px;
+	font-family: arial;
+	font-weight: bold;
+	padding-top: 325px;
+	padding-left: 200px;
+}
+
+h2 img {
+	width: 400px;
+	height: 40px;
+	padding-top: 2px;
+	padding-left: 8px;
+}
+
+.title {
+	position: absolute;
+	margin-top: 520px;
+}
+
+.title h3 {
+	font-size: 48px;
+	font-family: arial;
+	font-weight: bold;
+
+
+}
+
+.content1 {
+	width: 350px;
+	height: 800px;
+	position: relative;
+	top: 712px;
+	right: 300px;
+	background-color: ;
+	
+}
+
+.content1 h4 {
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+	font-family: arial;
+	padding-left: px;
+	padding-top: 20px;
+
+}
+
+.content1 p{
+	font-size: 30px;
+	font-family: arial;
+	font-weight: normal;
+	line-height: 37px;
+	padding-top: 40px;
+	padding: px;
+}
+
+.content1 p span {
+	font-weight: bold;
+}
+
+.content1 ul {
+	display: flex;
+	justify-content: center;
+	padding-top:16px ;
+}
+
+.content1 ul li {
+	display: inline-block;
+	padding: 8px;
+
+}
+
+.content2 {
+	width: 910px;
+	height: 550px;
+	position: absolute;
+	top: 725px;
+	margin-left: -500px;
+	background-color: gray;
+
+
+}
+
+.content3 {
+	width: 1500px;
+	height: 1130px;
+	position: absolute;
+	top: 1280px;
+}
+
+
+.content3 p {
+	font-size: 30px;
+	font-family: arial;
+	font-weight: normal;
+	line-height: 37px;
+	padding: 20px;
+
+}
